@@ -1,0 +1,157 @@
+body {
+    margin: 0%;
+    font-family: sans-serif;
+    letter-spacing: .02em;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 2em;
+}
+p {
+    line-height: 1.25em;
+    padding-bottom: 1em;
+    font-size: 11pt;
+    font-weight: 200;
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    height: 2.5em;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+.top-left {
+    display: inline;
+    padding-left: 10px;
+}
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0px;
+    margin: 0 20px 0 0;
+}
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.text a {
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    color: white;
+    background: rgb(32, 101, 136);
+    margin: 0% auto;
+    background-image: url('./images/city-scape.svg');
+    background-size: cover;
+    height: 400px;
+}
+.bar {
+    display: flex;
+    margin: 0% auto;
+    height: 35px;
+    padding: 10px 1%;
+    justify-content: space-between;
+}
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+}
+.search {
+    background-color: rgb(31, 82, 111);
+    display: in-line;
+    width: 75%;
+}
+.text {
+    line-height: .1;
+}
+.header-text {
+    margin: 0% auto;
+    padding: 50px 20%;
+}
+
+.button {
+    padding: .6rem 1.5rem;
+    border-radius: 10% / 50%;
+    text-align: center;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: white;
+}
+.header-text .button {
+    background: rgb(240, 146, 51);
+    border: none;
+}
+
+section {
+    padding: 5% 10%;
+}
+
+#collaboration {
+    color: white;
+    background: rgb(39, 53, 71);
+    height: 500px;
+}
+.collaboration-content {
+    margin: 0% auto;
+    padding: 5% 5%;
+    width: 100%;
+    
+}
+.collaboration-text {
+    margin-left: 500px;
+}
+.collaboration-text .button {
+    background: rgb(203, 56, 55);
+}
+.collaboration-img {
+    max-width: 50%;
+    max-height: 100%;
+    float: left;
+    margin: 0% auto;
+    padding: 5%;
+}
+.collaboration-text ul li {
+    text-indent: 1em;
+    line-height: 2em;
+    font-size: 11pt
+}
+.collaboration-text a{
+    color: white;
+}
+#what-is-npm {
+    color: white;
+    background-image: url('./images/forklift.svg');
+    background-size: cover;
+    position: relative;
+    height: 350px;
+}
+.npm-text {
+    padding: 2% 2%;
+    position: absolute;
+}
+.npm-text .button {
+    background: rgb(49, 68, 88)
+}
+#what-can-you-make {
+    color: rgb(135, 145, 156);
+}
+.make-text {
+    text-align: center;
+}
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin: 0% auto;
+}
+.card {
+    width: 33%;
+}
